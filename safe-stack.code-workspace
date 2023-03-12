@@ -1,0 +1,26 @@
+{
+
+    "folders": [
+        {
+            "path": "./server"
+        },
+        {
+            "path": "./web"
+        }
+    ],
+    "recommendations": ["svelte.svelte-vscode", "dbaeumer.vscode-eslint"],
+    "settings": {
+        "git.openRepositoryInParentFolders": "always",
+        "eslint.workingDirectories": [
+            {
+                "mode": "auto"
+            }
+        ],
+        "svelte.plugin.svelte.format.enable": false,
+        "eslint.format.enable": false,
+        "eslint.validate": [
+
+            "svelte", "javascript", "typescript"
+        ]
+    }
+}
